@@ -27,8 +27,7 @@ def send_sms(api_key,phone,message,sender_id):
 
     # We get the data or the response and decode it into text.
     response = content.data.decode('utf-8')
-
-    print(response)
+    
 
     # Interpreting codes obtained from reading the URL
     if response == '1000':
