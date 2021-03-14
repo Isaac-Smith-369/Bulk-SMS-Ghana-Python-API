@@ -2,7 +2,7 @@
 # github: https://github.com/Isaac-Smith-369
 # Bulk SMS API - python3
 
-import urllib.request as urlreq
+
 import urllib3
 
 
@@ -47,11 +47,11 @@ def send_sms(api_key,phone,message,sender_id):
         print("Empty message")
 
 # Defining variables to be used inside function
-api_key = 'd7368b3e63a0c0902b6f' #API Key generated from your mNotify account
-phone = '0276679293' #SMS recepient's phone number
-message = 'status check' #Message to be sent
-sender_id = 'Drwp' #Sender id for the message
+api_key = 'xxxxxxxxxxxxxx' #API Key generated from your mNotify account
+phone = '0213456789' #SMS recepient's phone number
+message = 'message' #Message to be sent
+sender_id = 'BulkSMS' #Sender id for the message
 
 
 # Calling function that was created to send sms
-send_sms(api_key,phone, message, sender_id)
+send_sms(api_key, phone, message, sender_id)
